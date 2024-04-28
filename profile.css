@@ -3,23 +3,31 @@ body {
     /* background-position: center; */
     /* background-size: cover; */
     /* background-repeat: repeat; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-repeat: round;
     background-size: 200px;
     position: relative;
-    margin-top: 50px;
-    margin-left: 350px;
+    /* margin-top: 50px;
+    margin-left: 350px; */
   }
 
   nav {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     padding: 10px 30px;
     box-shadow: 0 1px 8px #ddd;
 
   }
 
-  nav .top .right a{
+  nav .top .right {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: flex-start;
     justify-content: flex-end;
     color: #ddd;
   }
@@ -37,6 +45,13 @@ body {
 
   li a {
     color: #ddd;
+  }
+
+  .profile-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
 .profile-snapshot{
