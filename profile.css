@@ -13,16 +13,22 @@ body {
     margin-left: 350px; */
   }
 
-  nav {
+  /* nav {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     padding: 10px 30px;
     box-shadow: 0 1px 8px #ddd;
 
-  }
+  } */
 
-  nav .top .right {
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 30px;
+    box-shadow: 0 1px 8px #ddd;
+}
+
+  /* nav .top .right {
     float: right;
     display: flex;
     flex-direction: row;
@@ -30,22 +36,24 @@ body {
     align-content: flex-start;
     justify-content: flex-end;
     color: #ddd;
-  }
+  } */
 
-  nav .top {
+  /* nav .top {
     display: inline-block;
     vertical-align: top;
-  }
+  } */
 
-  ul {
+  /* ul {
     flex-direction: row;
     justify-content: flex-start;
     color: #ddd;
-  }
+  } */
 
-  li a {
+  /* li a {
     color: #ddd;
-  }
+    list-style: none;
+    display: inline-block;
+  } */
 
   .profile-main {
     display: flex;
@@ -68,8 +76,13 @@ body {
     font-family: 'Planet Kosmos';
     font-size: 30px;
     color: aliceblue;
-    margin-right: auto;
+    /* margin-right: auto; */
     /* text-align: left; */
+}
+
+#nav-title {
+  margin-right: auto;
+  /* font-size: 1.5em; */
 }
 
 #header{
@@ -78,6 +91,23 @@ body {
     padding-left: 10px;
     color: rgb(255, 0, 144); 
 }
+
+header li {
+  list-style: none;
+  /* display: inline-block; */
+  padding: 0 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: aliceblue;
+  transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+  color: #b2dfdb;
+}
+
 #profile-picture{
     float: left;
     padding-right: 20px;
