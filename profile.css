@@ -28,6 +28,16 @@ body {
     box-shadow: 0 1px 8px #ddd;
 }
 
+  header input {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 1px;
+    border: 2px solid #b2dfdb;
+    border-radius: 6px;
+  }
+
+
   /* nav .top .right {
     float: right;
     display: flex;
@@ -95,7 +105,7 @@ body {
 header li {
   list-style: none;
   /* display: inline-block; */
-  padding: 0 20px;
+  padding: 0 30px;
 }
 
 header a {
